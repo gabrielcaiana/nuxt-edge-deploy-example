@@ -18,5 +18,5 @@ export default defineNuxtConfig({
     viewer: true,
   },
 
-  modules: ['@nuxtjs/tailwindcss', 'hub'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxthub/core'],
 })
