@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  hub:
+    specifier: ^6.1.3
+    version: 6.1.3
   nuxt:
     specifier: ^3.13.2
     version: 3.13.2(vite@5.4.10)
@@ -2259,6 +2262,10 @@ packages:
     resolution: {integrity: sha512-5WeXXAvTmitV1RqJFppT5QtUiz2p1mRSYU000Jkft5ZUCLJIk4uQriYNO50HknxKwM6jd8utNc66K1qGIwwWBQ==}
     dev: false
 
+  /bluebird@3.7.2:
+    resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
+    dev: false
+
   /boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
     dev: false
@@ -3454,6 +3461,13 @@ packages:
 
   /httpxy@0.1.5:
     resolution: {integrity: sha512-hqLDO+rfststuyEUTWObQK6zHEEmZ/kaIP2/zclGGZn6X8h/ESTWg+WKecQ/e5k4nPswjzZD+q2VqZIbr15CoQ==}
+    dev: false
+
+  /hub@6.1.3:
+    resolution: {integrity: sha512-UZfND2V7WHrgjd3UrfXlYJJtDz/1FPJ+ji/vBdpw8r3SJOs/1vxfm/ADCZ9X/OjmW/aAbJqJOF5UITcdBin9kg==}
+    engines: {node: '>= 0.6.0'}
+    dependencies:
+      bluebird: 3.7.2
     dev: false
 
   /human-signals@4.3.1:
